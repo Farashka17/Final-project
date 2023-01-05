@@ -1,0 +1,779 @@
+*{
+	margin: 0 !important;
+	padding: 0 !important;
+}
+.birinci{
+	width: 100%;
+	height: 100vh;
+    background-image: url(https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/36cd7fd8ac0155b9a36bbd44/pexels-photo-5553896.jpeg);
+	background-size: cover;
+	background-position: center;
+	padding-left: 10% !important;
+}
+.birinci i{
+	color: white;
+	font-size: 40px;
+	border: none !important;
+	background: none;
+
+}
+.birinci a{
+     color: white;
+}
+.esasb{
+	font-size:25px !important;
+	color: white !important;
+	background: none !important;
+	border: none  !important;
+    padding-right: 0% !important;
+}
+
+.esas{
+	padding: 10px 20px !important;
+	text-align: center;
+}
+.button2{
+	font-size: 12.5rem;
+    letter-spacing: 20px;
+    text-decoration: none;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400;
+    color: white;
+}
+.button1{
+	color: white !important;
+}
+
+.button2:hover{
+    color: #e6e6e6 !important;
+}
+.column1{
+/*	width: 50%;*/
+	background-color: #ccafb0;
+	text-align: center;
+    padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	box-sizing: border-box;
+
+}
+.column1 img{
+	width: 353px;
+    height: 527px;
+	background-position: center;
+	background-size:50% 80%;
+	background-repeat: no-repeat;
+}
+.column2{
+	text-align: center;
+	padding-top: 10%  !important;
+	 box-sizing: border-box !important;
+	
+}
+.yazi2{
+	width: 100%%;
+	margin: auto !important;
+	box-sizing: border-box;
+	
+}
+.yazi2 h6{
+    font-size:20px ;
+    letter-spacing: 6px;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+    
+}
+.yazi2 h1{
+	font-size: 200px;
+    margin: 20px auto 0;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+    line-height: 1.7 !important;
+}
+.yazi2 a{
+	color: #ffffff !important;
+    background-color: #ccafb0 !important;
+    border-radius: 30px !important;	
+    padding: 10px 53px !important;
+    text-decoration: none;
+}
+.uchuncu{
+	width: 100%;
+	padding: 5% 12% !important;
+}
+.column3{
+    box-sizing: border-box;
+}
+.elave1{
+	width: 100% !important;
+	text-align: left;
+	padding: 12% 9% !important;
+	box-sizing: border-box; 
+}
+.elave1 p{
+	line-height: 1.7;
+    font-size: 16px;
+}
+.elave2{
+	width: 100%;
+	background-color: #ccafb0 !important;
+	padding:7% 7% !important ; 
+    min-height: 300px;
+}
+.yazi3{
+	border: 5px solid white;
+	text-align: center;
+	margin: auto;
+	padding:20% 6% !important;
+}
+.yazi3 h6{
+	font-size: 48px;
+	font-family: 'Playfair Display', serif !important;
+	color: white;
+	font-weight: 400 !important;
+}
+.yazi3 h1{
+	font-size: 1.25rem;
+    margin: 36px 0 0;
+    color: white;
+    word-wrap: break-word;
+    font-family: 'Open Sans',sans-serif !important;
+    line-height: 1.6 !important;
+}
+.elave3{
+	min-height: 397px;
+	width: 100% ;
+    background-image: url(https://images03.nicepage.com/a1389d7bc73adea1e1c1fb7e/28f673b8d42557d1aad2537b/pexels-photo-1671444.jpeg);
+	background-position: center;
+	background-size:95%;
+	background-repeat: no-repeat;
+    text-align: center;
+}
+.elave4{
+	min-height: 397px;
+	width: 100% ;
+	padding-top: 10% !important;
+	padding-left: 10% !important;
+	box-sizing: border-box;
+	background-repeat: no-repeat;
+	background-position: center;  
+	text-align: center;
+	
+}
+.elave4 img{
+	width: 434px;
+    height: 241px; 	
+}
+ /* Style the Image Used to Trigger the Modal */
+#myImg {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg:hover {
+    opacity: 0.7;
+}
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    text-align: center;
+    padding-left: 32% !important;
+    padding-right: 20% !important;
+    padding-top: 15% !important;
+    padding-bottom: 5% !important;
+    box-sizing: border-box;
+}
+/* Modal Content (Image) */
+.modal-content {
+   margin: auto;
+   display: block;
+   width: 60%;
+   max-width: 500px;
+ 
+ /*  position: absolute;
+   top: 200px;
+   left: 500px;*/
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+   text-align: center;
+   color: #ccc;
+   padding: 10px 0;
+   height: 150px;
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content, #caption {
+   animation-name: zoom;
+   animation-duration: 0.6s;
+}
+@keyframes zoom {
+   from {transform:scale(0)}
+   to {transform:scale(1)}
+}
+/* The Close Button */
+.close {
+   position: absolute;
+   top: 15px;
+   right: 35px;
+   color: #f1f1f1;
+   font-size: 40px;
+   font-weight: bold;
+   transition: 0.3s;
+} 
+.close:hover,
+.close:focus {
+   color: #bbb;
+   text-decoration: none;
+   cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content {
+    width: 100%;
+  }
+}
+.dorduncu{
+	width: 100%;
+}
+.column5 {
+	padding-top:5% !important;
+	padding-bottom: 5% !important;
+}
+.column5 img{
+	width: 295px;
+    height: 442px;
+    background-position: center;
+	background-size:40% 70%;
+	background-repeat: no-repeat;
+}
+#myImg1 {
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+#myImg1:hover {
+    opacity: 0.7;
+}
+/* The Modal (background) */
+.modal1 {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 1; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
+    text-align: center;
+    padding-left: 37% !important;
+    padding-right: 20% !important;
+    padding-top: 7% !important;
+/*    padding-bottom: 5% !important;*/
+    box-sizing: border-box;
+}
+/* Modal Content (Image) */
+.modal-content1 {
+   margin: auto;
+   display: block;
+   width: 60%;
+   max-width: 500px;
+ 
+ /*  position: absolute;
+   top: 200px;
+   left: 500px;*/
+}
+/* Caption of Modal Image (Image Text) - Same Width as the Image */
+#caption1 {
+   margin: auto;
+   display: block;
+   width: 80%;
+   max-width: 700px;
+   text-align: center;
+   color: #ccc;
+   padding: 10px 0;
+   height: 150px;
+}
+/* Add Animation - Zoom in the Modal */
+.modal-content1, #caption1 {
+   animation-name: zoom;
+   animation-duration: 0.6s;
+}
+@keyframes zoom {
+   from {transform:scale(0)}
+   to {transform:scale(1)}
+}
+/* The Close Button */
+.close1 {
+   position: absolute;
+   top: 15px;
+   right: 35px;
+   color: #f1f1f1;
+   font-size: 40px;
+   font-weight: bold;
+   transition: 0.3s;
+} 
+.close1:hover,
+.close1:focus {
+   color: #bbb;
+   text-decoration: none;
+   cursor: pointer;
+}
+/* 100% Image Width on Smaller Screens */
+@media only screen and (max-width: 700px){
+  .modal-content1 {
+    width: 100%;
+  }
+}
+.column6{
+	background-color: #ccafb0 !important;
+/*	height: 90vh;*/
+    box-sizing: border-box;
+    padding: 10% 5% !important;
+	text-align: center;
+}
+.column6 h6{
+	 font-size:18px ;
+    letter-spacing: 6px;
+    font-family: 'Playfair Display', serif !important;
+    font-weight: 400 !important;
+    color: white;
+    line-height: 0.001 !important;
+   
+}
+.column6 h1{
+	font-size: 200px;
+	color: white;
+	font-family: 'Playfair Display', serif !important;
+	font-weight: 400 !important	;
+    line-height: 1.7 !important;
+}
+.column6 a{
+	color: #ccafb0 !important;
+    background-color: white !important;
+    border-radius: 30px !important;	
+    padding: 10px 53px !important;
+    text-decoration: none;
+}
+.beshinci{
+	width: 100%;
+}
+.column7{
+    padding-top: 4%  !important;
+    padding-left: 8% !important;
+    padding-right:0% !important;
+}
+.elave5{
+	padding-left:15% !important;
+	box-sizing: border-box;
+}
+.elave5 h1{
+	letter-spacing: 4px;
+    line-height: 3;
+    font-size: 3rem;
+    font-family: 'Playfair Display', serif !important;
+}
+.navbar .container-fluid {
+	justify-content: flex-end;
+}
+.elave6 i{
+	color:#ccafb0 !important ;
+	font-size: 30px !important;
+}
+.elave6{
+	padding-left: 5%;
+}
+.elave6 i{
+	text-align: right !important;
+	margin:10px !important;
+}
+.elave7{
+	padding-bottom: 4% !important;
+}
+.elave7 h3{
+	font-weight: 700;
+    font-size: 1.25rem;
+    font-family: 'Open Sans',sans-serif !important;
+    word-wrap: break-word;
+    line-height: 1.2;
+    text-align: left;
+}
+.elave7 p{
+	text-align: left;
+	font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+    line-height: 1.6;
+}
+.elave7 a{
+	padding: 10px 65px 10px 64px !important;
+	background-color: #ccafb0 !important;
+	border-radius: 30px !important;
+	text-decoration: none;
+	color: white;
+}
+.column8{
+    min-height: 610px;
+	background-image: url(https://images02.nicepage.com/a1389d7bc73adea1e1c1fb7e/95467573322a59a380bb44e3/pexels-photo-4210811.jpeg);
+	background-size: 65% 80%;
+	background-position:center;
+	background-repeat: no-repeat; 
+}
+.altinci{
+	width: 100% !important;
+    cursor: pointer;
+}
+.altinci img{
+	height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.altinci img:hover{
+	background-color: black;
+	opacity: 0.5;
+}
+.yeddinci{
+	width: 100%;
+	background-color: #ccafb0 !important;
+	padding-top: 5%  !important;
+    box-sizing: border-box !important;
+}
+.column12{
+	padding-left: 13% !important;
+	box-sizing: border-box !important;
+}
+.column13{
+	padding-left: 2%!important;
+	padding-right: 2%!important;
+	box-sizing: border-box;
+}
+.column12 img{
+	width: 133px;
+    height: 647px;
+    object-position: 100% 50%;
+    margin: auto;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-style: none;
+    overflow-clip-margin: content-box;
+}
+.column13 img{
+	width: 100% !important;
+    margin-left: 0 !important;
+    margin-right: 0 !important;
+	height: 647px ;
+    margin: 0 auto 0 0;
+    object-fit: cover;
+    display: block;
+    vertical-align: middle;
+    background-size: cover;
+    background-position: 50% 50%;
+    background-repeat: no-repeat;
+    border-style: none !important;
+     overflow-clip-margin: content-box;
+  
+}
+.column13 h1{
+	font-family: "Antic Didone";
+    font-size: 12rem;
+    letter-spacing: 4px;
+    margin: -127px 21px 0 !important;
+    color: white;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+
+}
+.column14{
+	padding-top: 39% !important;
+	padding-bottom: 10% !important;
+	padding-left: 2% !important;
+}
+.column14 p{
+	line-height: 2;
+    margin: -62px 0 0 !important;
+    text-align: left;
+    padding-right: 45% !important;
+    box-sizing: border-box;
+    color: white;
+    font-family: 'Open Sans',sans-serif;
+    font-size: 1rem;
+}
+.sekkizinci{
+	width: 100%;
+	padding-top:2% !important ;
+	box-sizing: border-box;
+}
+.column15 {
+	padding-left: 15% !important;
+/*	padding-bottom: 10% !important;*/
+
+}
+.elave9{
+	text-align: left !important;
+	padding-top: 5% !important;
+	padding-bottom: 5% !important;
+	box-sizing: border-box;
+}
+.elave9 h3{
+	font-weight: 400;
+	font-family: 'Playfair Display', serif !important;
+	font-size: 1.875rem;
+    line-height: 1.2;
+}
+.elave9 pre{
+	font-size: 1rem;
+    margin: 20px 0 0;
+    line-height: 1.6;
+}
+.elave9{
+	padding: 10%;
+}
+.elave10{
+	padding-right: 5% !important;
+	box-sizing: border-box;
+	background-size: cover;
+	padding-bottom: 10% !important;
+	box-sizing: border-box;
+}
+.elave10 input{
+  width: 100%;
+  padding: 2% !important;
+  margin-bottom: 30px !important;
+  border: 2px solid black;
+  border-radius: 3px;
+}
+.elave10 textarea{
+	width: 100%;
+	 padding: 2% !important;
+	padding-bottom: 5% !important;
+	 border: 2px solid black;
+  border-radius: 3px;	
+}
+.button3{
+	text-align: left;
+	padding-top: 5% !important;
+}
+.elave10 a{
+    color: #ffffff !important;
+    background-color: #ccafb0 !important;
+    border-radius: 30px !important;	
+    padding: 10px 53px !important;
+    text-decoration: none;
+    padding: 10px 65px 10px 64px !important;
+}
+.column16{
+	padding-bottom: 2% !important;
+	box-sizing: border-box;
+}
+.column16 img{
+     max-height: 597px !important;
+     background-position: 50% 50%;
+     text-align: left;
+     flex: 0 0 48.33333333%;
+     overflow: visible;
+     position: relative;
+     display: flex;
+     background-clip: padding-box;
+     background-origin: padding-box;
+     object-fit: cover;
+     vertical-align: middle;
+     background-size: cover;
+     background-repeat: no-repeat;
+
+}
+.onuncu{
+    height: 90vh;
+    padding-bottom: 0% !important;
+}
+* {box-sizing:border-box}
+/* Slideshow container */
+.slideshow-container {
+
+  max-width: 100%;
+  position: relative;
+  margin: auto;
+}
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -22px;
+  padding: 16px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+.active, .dot:hover {
+  background-color: #717171;
+}
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+.son{
+	 background-color: #333333;
+	 margin: auto;
+	 text-align: center;
+	 padding-top: 4% !important;
+	 padding-bottom: 4% !important;
+	 font-size: 0.9rem;
+	font-family: 'Open Sans',sans-serif !important;
+	color: white;
+    line-height: 1.6;
+}
+.son h1{
+	font-size: 0.9rem;
+	font-family: 'Open Sans',sans-serif !important;
+	color: white;
+    line-height: 1.6;	
+}
+.son p{
+	color: white;
+	display: inline-block;
+	line-height: 1.6;
+	text-size-adjust: 100%;
+}
+.son a{
+	margin-top: 20px;
+    margin-bottom: 20px;
+    display: inline-block;
+    color: #adcce9;
+    text-size-adjust: 100%;
+}
+
+@media (max-width: 767px){
+.column3 h1{
+	width: auto;
+    margin-top: -52px !important ;
+    margin-left: auto;
+    margin-right: auto;
+}
+.column13 img{
+	height: 578px;
+}
+.column13 h1{
+	font-size: 200px !important ;
+    margin-top: -84px;
+    margin-left: -28px;
+    margin-right: -28px;
+}
+}
+@media (max-width: 991px){
+.column12{
+    display: none !important;
+}
+.column16{
+    width: 80%;
+    margin: auto;
+}
+.elave3{
+	background-size: 100% !important;
+}
+.column8{
+	min-height: 1005px !important;
+}
+.column13 img{
+	height: 100%;
+}
+.column13 h1{
+	font-size: 200px !important ;
+    margin-top: -84px;
+    margin-left: -28px;
+    margin-right: -28px;
+}
+.column16{
+	width: 100% !important;
+	padding-left: 20% !important;
+	box-sizing: border-box !important;
+
+}
+.column14{
+	width: 100% !important;
+	padding-top: 15% !important;
+	max-height: 200px;
+}
+}
+@media (max-width: 1199px){
+   .column13 h1{
+   	font-size: 8rem !important;
+   	margin-top: -85px !important;
+   }
+
+
+.column14 p{
+	font-size: 20px;
+}
+}
+@media (min-width: 1200px){
+    }
